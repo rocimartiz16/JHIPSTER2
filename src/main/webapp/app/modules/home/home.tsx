@@ -1,10 +1,11 @@
 import './home.css';
+import './ghostRegistroCss.css';
 
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Translate } from 'react-jhipster';
 import { connect } from 'react-redux';
-import { Row, Col, Alert } from 'reactstrap';
+import { Row, Col, Alert, Jumbotron, Container, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 import { IRootState } from 'app/shared/reducers';
 import { getSession } from 'app/shared/reducers/authentication';
@@ -12,56 +13,82 @@ import { getSession } from 'app/shared/reducers/authentication';
 export interface IHomeProp extends StateProps, DispatchProps {}
 
 export class Home extends React.Component<IHomeProp> {
-  componentDidMount() {
-    this.props.getSession();
-  }
-
+    componentDidMount() {
+        this.props.getSession();
+    }
   render() {
     const { account } = this.props;
     return (
-      <Row>
-        <Col md="9">
-          <h2>
-            <Translate contentKey="home.title">Welcome, Java Hipster!</Translate>
-          </h2>
-          <p className="lead">
-            <Translate contentKey="home.subtitle">This is your homepage</Translate>
-          </p>
-          {account && account.login ? (
-            <div>
-              <Alert color="success">
-                <Translate contentKey="home.logged.message" interpolate={{ username: account.login }}>
-                  You are logged in as user {account.login}.
-                </Translate>
-              </Alert>
-            </div>
-          ) : (
-            <div>
-                <Alert color="warning">
-                <Translate contentKey="global.messages.info.authenticated.prefix">If you want to </Translate>
-                <Link to="/login" className="alert-link">
-                    <Translate contentKey="global.messages.info.authenticated.link"> sign in</Translate>
-                </Link>
-                <Translate contentKey="global.messages.info.authenticated.suffix">
-                    , you can try the default accounts:
-                    <br />- Administrator (login=&quot;admin&quot;i79 and password=&quot;admin&quot;)
-                    <br />- User (login=&quot;user&quot; and password=&quot;user&quot;).
-                </Translate>
-            </Alert>
-              <Alert color="warning">
-                <Translate contentKey="global.messages.info.register.noaccount">You do not have an account yet?</Translate>
-                &nbsp;
-                <Link to="/register" className="alert-link">
-                  <Translate contentKey="global.messages.info.register.link">Register a new account</Translate>
-                </Link>
-              </Alert>
-            </div>
-          )}
-         </Col>
-        <Col md="3" className="pad">
-          <span className="hipster rounded" />
-        </Col>
-      </Row>
+        <Form>
+            <FormGroup>
+                <Label for="exampleEmail">Email</Label>
+                <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+            </FormGroup>
+            <FormGroup>
+                <Label for="examplePassword">Password</Label>
+                <Input type="password" name="password" id="examplePassword" placeholder="password placeholder" />
+            </FormGroup>
+            <FormGroup>
+                <Label for="exampleSelect">Select</Label>
+                <Input type="select" name="select" id="exampleSelect">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </Input>
+            </FormGroup>
+            <FormGroup>
+                <Label for="exampleSelectMulti">Select Multiple</Label>
+                <Input type="select" name="selectMulti" id="exampleSelectMulti" multiple>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </Input>
+            </FormGroup>
+            <FormGroup>
+                <Label for="exampleText">Text Area</Label>
+                <Input type="textarea" name="text" id="exampleText" />
+            </FormGroup>
+            <FormGroup>
+                <Label for="exampleFile">File</Label>
+                <Input type="file" name="file" id="exampleFile" />
+                <FormText color="muted">
+                    This is some placeholder block-level help text for the above input.
+                    It's a bit lighter and easily wraps to a new line.
+                </FormText>
+            </FormGroup>
+            <FormGroup tag="fieldset">
+                <legend>Radio Buttons</legend>
+                <FormGroup check>
+                    <Label check>
+                        <Input type="radio" name="radio1" />{' '}
+                        Option one is this and that—be sure to include why it's great
+                    </Label>
+                </FormGroup>
+                <FormGroup check>
+                    <Label check>
+                        <Input type="radio" name="radio1" />{' '}
+                        Option two can be something else and selecting it will deselect option one
+                    </Label>
+                </FormGroup>
+                <FormGroup check disabled>
+                    <Label check>
+                        <Input type="radio" name="radio1" disabled />{' '}
+                        Option three is disabled
+                    </Label>
+                </FormGroup>
+            </FormGroup>
+            <FormGroup check>
+                <Label check>
+                    <Input type="checkbox" />{' '}
+                    Check me out
+                </Label>
+            </FormGroup>
+            <Button>Submit</Button>
+        </Form>
     );
   }
 }

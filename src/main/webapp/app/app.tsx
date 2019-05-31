@@ -25,7 +25,13 @@ export class App extends React.Component<IAppProps> {
     this.props.getSession();
     this.props.getProfile();
   }
-
+    componentWillMount() {
+        this.props.getSession();
+        this.state = {
+            isAprendizOpen: true,
+            isLoginOpen: false
+        };
+  }
   render() {
     const paddingTop = '60px';
     return (

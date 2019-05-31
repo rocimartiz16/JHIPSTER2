@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ghost Registro</title>
+</head>
+<body>
+
+<link href='css/ghostRegistroCss.css' rel='stylesheet' type='text/css'>
+<!-- <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet"> -->
+<link href='css/alternativo.css' rel='stylesheet' type='text/css'>
+<!-- <link href="file:///C:/Users/zrgznk/Documents/archivos/proyecto/paginaGhost/font/style.css" rel='stylesheet' type='text/css'> -->
+<link href="font/Icomoon-Free-master/Font/demo-files/demo.css" rel='stylesheet' type='text/css'>
+<img src="img/logoGhost.png" width="80px" height="80.px" alt="">
+<hr>
+<div class="cajaTexto">
+  <h1>Registro</h1>
+
+  <form action="/">
+      <hr>
+    <div class="cuentaUsuario" align="center" >
+      <input type="radio" value="None" id="radioUno" name="tipoCuenta"checked/>
+      <label for="radioUno" class="radio" chec>Aprendiz</label>
+      <input type="radio" value="None" id="radioDos" name="tipoCuenta" />
+      <label for="radioDos" class="radio">Instructor</label>
+      <input type="radio" value="None" id="radioTres" name="tipoCuenta" />
+      <label for="radioTres" class="radio">Lider</label>    
+    </div>
+  <hr>
+  <label id="icon" for="id"><i class="icon icon-user-plus"></i></label>
+  <input type="text" name="name" id="primerNombre" placeholder="Primer Nombre" required/>
+      <label id="icon" for="name"><i class="icon icon-user-plus"></i></label>
+  <input type="text" name="name" id="segundoNombre" placeholder="Segundo Nombre" required/>
+ <br>
+     <label id="icon" for="name"><i class="icon icon-user-plus"></i></label>
+  <input type="text" name="name" id="primerApellido" placeholder="Primer Apellido" required/>
+    <label id="icon" for="name"><i class="icon icon-user-plus"></i></label>
+  <input type="text" name="name" id="segundoApellido" placeholder="Segundo Apellido" required/>
+
+
+<br>
+
+  <label id="icon" for="name"><i class="icon icon-profile"></i></label>
+  <input type="text" name="name" id="name" placeholder="Documento" required/>
+      <label id="icon" for="name"><i class="icon icon-mail "></i></label>
+  <input type="text" name="name" id="email" placeholder="Email" required/>
+<br>
+
+ 
+  <label id="icon" for="name"><i class="icon icon-lock"></i></label>
+  <input type="password" name="name" id="clave" placeholder="Clave" required/>
+  <label id="icon" for="name"><i class="icon icon-lock"></i></label>
+  <input type="password" name="name" id="clave2" placeholder="Repetir Clave" required/> 
+  <hr>
+ <div class="genero" align="center">
+    
+    <input type="radio" value="None" id="hombre" name="genero" checked/>
+    <label for="hombre" class="radio" chec>Hombre</label>
+    <span class="icon icon-man"></span>
+    <input type="radio" value="None" id="mujer" name="genero" />
+    <label for="mujer" class="radio">Mujer</label>
+    <span class="icon icon-woman"></span>
+    <br>
+    <p>
+        <a href="login.html" >Ya tiene una cuenta?</a>
+    </p>
+   </div>
+   <hr> 
+   <p>Al hacer click usted acepta <a href="#">los terminos y condiciones</a>.</p>
+   <a href="#" class="button"  >Registrar</a>
+  </form>
+</div>
+
+
+</body>
+</html>
