@@ -55,6 +55,59 @@
         "logout": "Cerrar la sesión",
         "register": "Crear una cuenta"
       },
+        "mihorario": {
+            "main": "Horario",
+            "Mihorario" : "Horario"
+        },
+        "instructor" : {
+            "main": "Instructor",
+            "instructor": "InstructorX",
+            "miHorario": "Horario",
+            "complementos": "Complementarios",
+            "ficha": "Ficha",
+            "vinculacionInstructor": "Vinculacion Instructor",
+            "jornadaInstructor": "Jornada Instructor"
+        },
+        "lider": {
+            "main": "Lider",
+            "lider": "Lider",
+            "planeacion": "Planeacion",
+            "nivelFormacion": "Nivel Formacion",
+            "programa": "Programa",
+            "proyecto": "Proyecto",
+            "competencia": "Competencia",
+            "resultadoAprendizaje": "Resultado Aprendizaje",
+            "jornada": "Jornada",
+            "trimestre": "Trimestre",
+            "planeacionTrimestre": "Planeacion Trimestre",
+            "faseProyecto": "Fase Proyecto",
+            "actividadProyecto": "Actividad Proyecto",
+            "estadoFicha": "Estado Ficha",
+            "ficha": "Ficha",
+            "fichaTrimestre": "Ficha Trimestre",
+            "resultadosVistos": "Resultados Vistos",
+            "planeacionActividad": "Planeacion Actividad",
+            "vinculacion": "Vinculacion",
+            "anio": "Anio",
+            "instructor": "Instructor",
+            "vinculacionInstructor": "Vinculacion Instructor",
+            "jornadaInstructor": "Jornada Instructor",
+            "diaJornada": "Dia Jornada",
+            "area": "Area",
+            "areaInstructor": "Area Instructor",
+            "disponibilidadCompetencias": "Disponibilidad Competencias",
+            "disponibilidadHoraria": "Disponibilidad Horaria",
+            "tipoAmbiente": "Tipo Ambiente",
+            "sede": "Sede",
+            "ambiente": "Ambiente",
+            "limitacionAmbiente": "Limitacion Ambiente",
+            "modalidad": "Modalidad",
+            "dia": "Dia",
+            "trimestreVigente": "Trimestre Vigente",
+            "versionHorario": "Version Horario",
+            "horario": "Horario",
+            "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        },
       "admin": {
         "main": "Administración",
         "userManagement": "Gestión de usuarios",
@@ -168,5 +221,9 @@
     "idexists": "A new {{entityName}} cannot already have an ID",
     "idnull": "Invalid ID"
   },
-  "footer": "pie de página"
+  "footer": "Lunes a Viernes 7:00 am a 7:00 pm - Sábados 8:00 am a 1:00 pm "
+
+
+
+
 }

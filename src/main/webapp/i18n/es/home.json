@@ -1,10 +1,13 @@
 {
   "home": {
-    "title": "¡GHOST !",
+    "title": "Gestión de Horarios y Organización Sistematizada de Teleinformática",
     "subtitle": "Gestión de Horarios y Organización Sistematizada de Teleinformática",
     "logged": {
       "message": "Está conectado como \"{{username}}\"."
     },
+   "noaccount":{
+       "messages": "GhostCeet optimiza los tiempos de ejecución para elaborar los horarios de formación en la sede Colombia del Ceet Sena, regional distrito capital.Así mismo incluirá una interface gráfica, interactiva y amigable, que hará posible la comunicación con todos sus usuarios. Es importante resaltar que Ghost hará posible la publicación de los horarios de formación a tiempo."
+   },
     "question": "Si tiene preguntas sobre JHipster:",
     "link": {
       "homepage": "Página de inicio de JHipster",
