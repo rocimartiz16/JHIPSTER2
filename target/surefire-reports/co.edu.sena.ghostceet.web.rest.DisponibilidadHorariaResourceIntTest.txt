@@ -1,0 +1,121 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.074 s <<< FAILURE! - in co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest
+equalsVerifier(co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest)  Time elapsed: 0.009 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.h2.jdbc.JdbcSQLException: 
+Unique index or primary key violation: "UX_DOCUMENTO_NOMBRE_INDEX_D ON PUBLIC.DOCUMENTO(NOMBRE) VALUES ('AAAAAAAAAA', 41)"; SQL statement:
+insert into documento (id, estado, nombre, sigla) values (null, ?, ?, ?) [23505-197]
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+
+getDisponibilidadHoraria(co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest)  Time elapsed: 0.008 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.h2.jdbc.JdbcSQLException: 
+Unique index or primary key violation: "UX_DOCUMENTO_NOMBRE_INDEX_D ON PUBLIC.DOCUMENTO(NOMBRE) VALUES ('AAAAAAAAAA', 43)"; SQL statement:
+insert into documento (id, estado, nombre, sigla) values (null, ?, ?, ?) [23505-197]
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+
+updateDisponibilidadHoraria(co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest)  Time elapsed: 0.008 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.h2.jdbc.JdbcSQLException: 
+Unique index or primary key violation: "UX_DOCUMENTO_NOMBRE_INDEX_D ON PUBLIC.DOCUMENTO(NOMBRE) VALUES ('AAAAAAAAAA', 45)"; SQL statement:
+insert into documento (id, estado, nombre, sigla) values (null, ?, ?, ?) [23505-197]
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+
+getNonExistingDisponibilidadHoraria(co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest)  Time elapsed: 0.007 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.h2.jdbc.JdbcSQLException: 
+Unique index or primary key violation: "UX_DOCUMENTO_NOMBRE_INDEX_D ON PUBLIC.DOCUMENTO(NOMBRE) VALUES ('AAAAAAAAAA', 47)"; SQL statement:
+insert into documento (id, estado, nombre, sigla) values (null, ?, ?, ?) [23505-197]
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+
+deleteDisponibilidadHoraria(co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest)  Time elapsed: 0.006 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.h2.jdbc.JdbcSQLException: 
+Unique index or primary key violation: "UX_DOCUMENTO_NOMBRE_INDEX_D ON PUBLIC.DOCUMENTO(NOMBRE) VALUES ('AAAAAAAAAA', 49)"; SQL statement:
+insert into documento (id, estado, nombre, sigla) values (null, ?, ?, ?) [23505-197]
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+
+updateNonExistingDisponibilidadHoraria(co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest)  Time elapsed: 0.006 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.h2.jdbc.JdbcSQLException: 
+Unique index or primary key violation: "UX_DOCUMENTO_NOMBRE_INDEX_D ON PUBLIC.DOCUMENTO(NOMBRE) VALUES ('AAAAAAAAAA', 51)"; SQL statement:
+insert into documento (id, estado, nombre, sigla) values (null, ?, ?, ?) [23505-197]
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+
+createDisponibilidadHoraria(co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest)  Time elapsed: 0.006 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.h2.jdbc.JdbcSQLException: 
+Unique index or primary key violation: "UX_DOCUMENTO_NOMBRE_INDEX_D ON PUBLIC.DOCUMENTO(NOMBRE) VALUES ('AAAAAAAAAA', 53)"; SQL statement:
+insert into documento (id, estado, nombre, sigla) values (null, ?, ?, ?) [23505-197]
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+
+getAllDisponibilidadHorarias(co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest)  Time elapsed: 0.006 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.h2.jdbc.JdbcSQLException: 
+Unique index or primary key violation: "UX_DOCUMENTO_NOMBRE_INDEX_D ON PUBLIC.DOCUMENTO(NOMBRE) VALUES ('AAAAAAAAAA', 55)"; SQL statement:
+insert into documento (id, estado, nombre, sigla) values (null, ?, ?, ?) [23505-197]
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+
+createDisponibilidadHorariaWithExistingId(co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest)  Time elapsed: 0.008 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+Caused by: org.h2.jdbc.JdbcSQLException: 
+Unique index or primary key violation: "UX_DOCUMENTO_NOMBRE_INDEX_D ON PUBLIC.DOCUMENTO(NOMBRE) VALUES ('AAAAAAAAAA', 57)"; SQL statement:
+insert into documento (id, estado, nombre, sigla) values (null, ?, ?, ?) [23505-197]
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.createEntity(DisponibilidadHorariaResourceIntTest.java:99)
+	at co.edu.sena.ghostceet.web.rest.DisponibilidadHorariaResourceIntTest.initTest(DisponibilidadHorariaResourceIntTest.java:108)
+

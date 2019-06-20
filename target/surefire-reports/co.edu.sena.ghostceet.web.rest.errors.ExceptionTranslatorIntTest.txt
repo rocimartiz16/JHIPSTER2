@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.sena.ghostceet.web.rest.errors.ExceptionTranslatorIntTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.899 s - in co.edu.sena.ghostceet.web.rest.errors.ExceptionTranslatorIntTest

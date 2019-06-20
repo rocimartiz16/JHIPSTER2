@@ -150,7 +150,13 @@ const mapStateToProps = ({ cliente }: IRootState) => ({
 const mapDispatchToProps = {
   getEntities
 };
-
+function f(r) {
+  if (r === null) {
+    return false;
+  } else {
+    return true;
+  }
+}
 type StateProps = ReturnType<typeof mapStateToProps>;
 type DispatchProps = typeof mapDispatchToProps;
 

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.sena.ghostceet.config.WebConfigurerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.901 s - in co.edu.sena.ghostceet.config.WebConfigurerTest

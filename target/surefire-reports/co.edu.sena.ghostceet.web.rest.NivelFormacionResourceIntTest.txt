@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.sena.ghostceet.web.rest.NivelFormacionResourceIntTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.697 s - in co.edu.sena.ghostceet.web.rest.NivelFormacionResourceIntTest

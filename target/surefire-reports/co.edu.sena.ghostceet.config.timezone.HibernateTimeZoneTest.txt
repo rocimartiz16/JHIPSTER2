@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.sena.ghostceet.config.timezone.HibernateTimeZoneTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.733 s - in co.edu.sena.ghostceet.config.timezone.HibernateTimeZoneTest
